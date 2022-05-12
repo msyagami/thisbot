@@ -1,0 +1,18 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "dist",
+        "rootDir": "src",
+        "target": "es2021",
+        "moduleResolution": "node",
+        "module": "commonJS",
+        "paths": {
+            "@discordjs/voice":["../../"],
+            "@discordjs/opus":["./node_modules/@discordjs/opus"],
+            "libsodium-wrappers": ["./node_modules/libsodium-wrappers"],
+        },
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+    }
+}
