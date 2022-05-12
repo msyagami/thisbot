@@ -8,7 +8,6 @@ const row = new MessageActionRow()
 )
 
 module.exports = {
-
     name: 'play',
     data: new SlashCommandBuilder()
     .setName('play').setDescription('Complements the bot.'), 
